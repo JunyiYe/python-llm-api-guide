@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "question": "What is Python?",
+      "answer": "Python is a high-level, interpreted programming language known for its clear, readable syntax and versatility. It\u2019s widely used for web development, data analysis, machine learning, automation, scripting, and more.",
+      "tokens_used": 49
+    },
+    {
+      "question": "What are the main features of Python?",
+      "answer": "Key features of Python:\n\n1. **Easy to read and write** \u2013 Clean, English-like syntax; great for beginners and rapid development.  \n2. **Interpreted language** \u2013 Code is executed line by line; no separate compilation step.  \n3. **Dynamically typed** \u2013 You don\u2019t declare variable types; types are checked at runtime.  \n4. **High-level** \u2013 Manages low-level details (memory, pointers) for you.  \n5. **Object-oriented** \u2013 Supports classes, objects, inheritance, and other OOP concepts.  \n6. **Extensive standard library** \u2013 \u201cBatteries included\u201d modules for file I/O, networking, math, etc.  \n7. **Cross-platform** \u2013 Runs on Windows, macOS, Linux, and more with little or no code change.  \n8. **Large ecosystem** \u2013 Rich third-party libraries (NumPy, Pandas, Django, Flask, etc.).  \n9. **Embeddable and extensible** \u2013 Can be embedded in other applications and extended with C/C++.  \n10. **Strong community support** \u2013 Active community, documentation, and learning resources.",
+      "tokens_used": 245
+    },
+    {
+      "question": "How do you create a list in Python?",
+      "answer": "You create a list in Python by placing comma-separated values inside square brackets:\n\n```python\nmy_list = [1, 2, 3, \"apple\", True]\n```\n\nYou can also create an empty list:\n\n```python\nempty_list = []\n```",
+      "tokens_used": 62
+    }
+  ],
+  "total_questions": 3,
+  "parameters_used": {
+    "model": "gpt-5.1",
+    "temperature": 0.0,
+    "max_completion_tokens": 2048,
+    "top_p": 0.5
+  }
+}
