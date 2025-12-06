@@ -31,7 +31,7 @@ def print_first_prompt(questions):
         print()
 
 # Load questions from JSON file
-with open("questions.json", "r") as f:
+with open("examples/openai/questions.json", "r") as f:
     data = json.load(f)
 
 questions = data["questions"]
@@ -56,8 +56,8 @@ for i, question in enumerate(questions, 1):
             {"role": "user", "content": prompt}
         ],
         # === API PARAMETERS ===
-        temperature=0.0,           # 0.0: Deterministic - always picks most likely token (best for accuracy)
-        max_completion_tokens=2048,            # Maximum length of response (the maximum is 4096 tokens for gpt-5.1)
+        temperature=0.0,           # 0.0: Deterministic - always picks most likely token (best for accuracy) [0,2]
+        max_completion_tokens=4096,            # Maximum length of response (the maximum is 4096 tokens for gpt-5.1)
         top_p=0.5,                # 0.5: Only considers top 50% likely tokens (more accurate, less random)
         # reasoning_effort="medium", # Optional: Enable extended reasoning. Values: "low", "medium", "high"
     )
@@ -79,12 +79,12 @@ output_data = {
     "parameters_used": {
         "model": "gpt-5.1",
         "temperature": 0.0,
-        "max_completion_tokens": 2048,
+        "max_completion_tokens": 4096,
         "top_p": 0.5
     }
 }
 
-with open("responses.json", "w") as f:
+with open("examples/openai/responses.json", "w") as f:
     json.dump(output_data, f, indent=2)
 
 print("-" * 50)

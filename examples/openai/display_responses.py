@@ -5,7 +5,7 @@ Display questions and answers from responses.json file.
 import json
 
 # Load responses from JSON file
-with open("responses.json", "r") as f:
+with open("examples/openai/responses.json", "r") as f:
     data = json.load(f)
 
 results = data["results"]

@@ -2,18 +2,18 @@
   "results": [
     {
       "question": "What is Python?",
-      "answer": "Python is a high-level, interpreted programming language known for its clear, readable syntax and versatility. It\u2019s widely used for web development, data analysis, machine learning, automation, scripting, and more.",
-      "tokens_used": 49
+      "answer": "Python is a high-level, interpreted programming language known for its clear, readable syntax and versatility. It\u2019s widely used for web development, data analysis, machine learning, automation, scripting, and many other applications.",
+      "tokens_used": 51
     },
     {
       "question": "What are the main features of Python?",
-      "answer": "Key features of Python:\n\n1. **Easy to read and write** \u2013 Clean, English-like syntax; great for beginners and rapid development.  \n2. **Interpreted language** \u2013 Code is executed line by line; no separate compilation step.  \n3. **Dynamically typed** \u2013 You don\u2019t declare variable types; types are checked at runtime.  \n4. **High-level** \u2013 Manages low-level details (memory, pointers) for you.  \n5. **Object-oriented** \u2013 Supports classes, objects, inheritance, and other OOP concepts.  \n6. **Extensive standard library** \u2013 \u201cBatteries included\u201d modules for file I/O, networking, math, etc.  \n7. **Cross-platform** \u2013 Runs on Windows, macOS, Linux, and more with little or no code change.  \n8. **Large ecosystem** \u2013 Rich third-party libraries (NumPy, Pandas, Django, Flask, etc.).  \n9. **Embeddable and extensible** \u2013 Can be embedded in other applications and extended with C/C++.  \n10. **Strong community support** \u2013 Active community, documentation, and learning resources.",
-      "tokens_used": 245
+      "answer": "Main features of Python:\n\n1. **Easy to read and write** \u2013 Clean, English-like syntax.\n2. **Interpreted language** \u2013 Code is executed line by line; no separate compilation step.\n3. **Dynamically typed** \u2013 No need to declare variable types explicitly.\n4. **High-level language** \u2013 Handles low-level details like memory management for you.\n5. **Object-oriented** \u2013 Supports classes, objects, inheritance, etc.\n6. **Extensive standard library** \u2013 Rich built-in modules for many tasks (file I/O, networking, math, etc.).\n7. **Cross-platform** \u2013 Runs on Windows, macOS, Linux, and more without code changes (in most cases).\n8. **Large ecosystem** \u2013 Many third-party packages (NumPy, Django, Flask, Pandas, etc.).\n9. **Embeddable and extensible** \u2013 Can be embedded in other applications and extended with C/C++.\n10. **Strong community support** \u2013 Active community, documentation, and learning resources.",
+      "tokens_used": 220
     },
     {
       "question": "How do you create a list in Python?",
-      "answer": "You create a list in Python by placing comma-separated values inside square brackets:\n\n```python\nmy_list = [1, 2, 3, \"apple\", True]\n```\n\nYou can also create an empty list:\n\n```python\nempty_list = []\n```",
-      "tokens_used": 62
+      "answer": "You create a list in Python by placing comma-separated values inside square brackets:\n\n```python\nmy_list = [1, 2, 3, \"apple\", True]\n```\n\nYou can also start with an empty list:\n\n```python\nempty_list = []\n```",
+      "tokens_used": 63
     }
   ],
   "total_questions": 3,

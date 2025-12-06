@@ -17,7 +17,7 @@ client = OpenAI(api_key=api_key)
 response = client.chat.completions.create(
     model="gpt-5.1",
     messages=[
-        {"role": "user", "content": "What is Python? Explain in one sentence."}
+        {"role": "user", "content": "What is LLM? Explain in one sentence."}
     ]
 )
 
